@@ -1,0 +1,78 @@
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.184-linuxkit
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_221-b02
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Feb 11, 2020 5:58:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Feb 11, 2020 5:58:58 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Feb 11, 2020 5:58:58 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Feb 11, 2020 5:58:59 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Feb 11, 2020 5:59:01 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Feb 11, 2020 5:59:01 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Feb 11, 2020 5:59:01 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5916 ms
+Feb 11, 2020 5:59:01 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 11, 2020 5:59:01 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Feb 11, 2020 5:59:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/manager
+Feb 11, 2020 5:59:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 2,950 ms
+Feb 11, 2020 5:59:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/host-manager
+Feb 11, 2020 5:59:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 246 ms
+Feb 11, 2020 5:59:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/docs
+Feb 11, 2020 5:59:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 202 ms
+Feb 11, 2020 5:59:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/examples
+Feb 11, 2020 5:59:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 2,077 ms
+Feb 11, 2020 5:59:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/ROOT
+Feb 11, 2020 5:59:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 267 ms
+Feb 11, 2020 5:59:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Feb 11, 2020 5:59:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Feb 11, 2020 5:59:07 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6205 ms

@@ -1,0 +1,8 @@
+Feb 12, 2020 10:30:47 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Feb 12, 2020 10:30:47 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Feb 12, 2020 10:30:47 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Feb 12, 2020 10:30:47 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /usr/local/tomcat/webapps/ROOT.war.tmp

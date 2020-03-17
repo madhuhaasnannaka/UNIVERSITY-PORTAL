@@ -1,0 +1,50 @@
+Jan 21, 2020 8:24:22 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context []
+Jan 21, 2020 8:24:22 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'gameoflife-servlet': startup date [Thu Jan 09 11:38:35 UTC 2020]; root of context hierarchy
+Jan 21, 2020 8:24:22 AM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5b7f3796: defining beans [gameController,homePageController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,view-Resolver]; root of factory hierarchy
+Jan 21, 2020 8:24:22 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ROOT.war
+Jan 21, 2020 8:24:23 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization started
+Jan 21, 2020 8:24:23 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'gameoflife-servlet': startup date [Tue Jan 21 08:24:23 UTC 2020]; root of context hierarchy
+Jan 21, 2020 8:24:23 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/gameoflife-servlet.xml]
+Jan 21, 2020 8:24:23 AM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Jan 21, 2020 8:24:23 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3343a4c3: defining beans [gameController,homePageController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,view-Resolver]; root of factory hierarchy
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@c8a88a3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@c8a88a3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@c8a88a3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@c8a88a3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@c8a88a3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@c8a88a3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@c8a88a3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@c8a88a3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@c8a88a3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Root mapping to handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@5b108bc3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@5b108bc3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@5b108bc3]
+Jan 21, 2020 8:24:23 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home/] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@5b108bc3]
+Jan 21, 2020 8:24:24 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization completed in 426 ms
+Jan 21, 2020 8:24:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ROOT.war has finished in 1,051 ms

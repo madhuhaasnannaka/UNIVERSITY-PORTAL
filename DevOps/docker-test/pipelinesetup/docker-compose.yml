@@ -1,0 +1,34 @@
+version: "3"
+services:
+  postgres:
+    container_name: postgres
+    image: postgres
+    environment:
+      - POSTGRES_USER=sonar
+      - POSTGRES_PASSWORD=sonar
+    volumes:
+      - /data/postgresql:/var/lib/postgresql
+      - /data/postgresql_data:/var/lib/postgresql/data
+  sonarqube:
+    container_name: sonarqube
+    image: sonarqube
+    ports:
+      - "9000:9000"
+    depends_on:
+      - postgres
+  tomcat:
+    image: tomcat:7-jre7
+    ports:
+      - "8085:8080"
+    container_name: tomcat
+    volumes:
+      - ./logs/:/usr/local/tomcat/logs/
+      - "./tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml"
+      - "./settings.xml:/usr/local/tomcat/conf/settings.xml"
+  nexus:
+    image: sonatype/nexus
+    container_name: nexus
+    ports:
+      - "8086:8081"
+    volumes:
+      - "/opt/nexus/:/var/lib/nexus"

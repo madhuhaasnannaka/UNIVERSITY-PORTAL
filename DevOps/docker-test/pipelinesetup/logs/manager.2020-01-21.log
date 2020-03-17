@@ -1,0 +1,4 @@
+Jan 21, 2020 8:24:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Jan 21, 2020 8:24:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /usr/local/tomcat/webapps/ROOT.war.tmp

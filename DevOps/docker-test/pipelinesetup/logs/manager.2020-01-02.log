@@ -1,0 +1,22 @@
+Jan 02, 2020 7:18:55 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Jan 02, 2020 7:18:55 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /usr/local/tomcat/webapps/ROOT.war.tmp
+Jan 02, 2020 7:20:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Jan 02, 2020 7:22:21 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Jan 02, 2020 7:22:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/'
+Jan 02, 2020 7:22:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/'
+Jan 02, 2020 7:22:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/'
+Jan 02, 2020 7:22:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/manager'
+Jan 02, 2020 7:22:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/manager'
+Jan 02, 2020 1:41:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Jan 02, 2020 1:41:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /usr/local/tomcat/webapps/ROOT.war.tmp

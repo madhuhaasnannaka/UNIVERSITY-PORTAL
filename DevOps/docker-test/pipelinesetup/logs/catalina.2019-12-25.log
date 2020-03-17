@@ -1,0 +1,408 @@
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.184-linuxkit
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_221-b02
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Dec 25, 2019 4:21:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Dec 25, 2019 4:21:20 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Dec 25, 2019 4:21:20 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Dec 25, 2019 4:21:20 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Dec 25, 2019 4:21:22 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 4:21:23 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 4:21:23 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 9561 ms
+Dec 25, 2019 4:21:23 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 25, 2019 4:21:23 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Dec 25, 2019 4:21:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/manager
+Dec 25, 2019 4:21:27 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [180] milliseconds.
+Dec 25, 2019 4:21:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 3,700 ms
+Dec 25, 2019 4:21:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/host-manager
+Dec 25, 2019 4:21:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 231 ms
+Dec 25, 2019 4:21:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/docs
+Dec 25, 2019 4:21:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 254 ms
+Dec 25, 2019 4:21:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/examples
+Dec 25, 2019 4:21:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 2,714 ms
+Dec 25, 2019 4:21:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/ROOT
+Dec 25, 2019 4:21:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 383 ms
+Dec 25, 2019 4:21:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 4:21:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 4:21:31 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8510 ms
+Dec 25, 2019 4:58:08 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 4:58:08 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 4:58:08 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 25, 2019 4:58:09 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 4:58:09 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 4:58:09 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 4:58:09 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.184-linuxkit
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_221-b02
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Dec 25, 2019 4:59:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Dec 25, 2019 4:59:51 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Dec 25, 2019 4:59:51 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Dec 25, 2019 4:59:51 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Dec 25, 2019 4:59:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 4:59:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 4:59:53 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 6927 ms
+Dec 25, 2019 4:59:54 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 25, 2019 4:59:54 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Dec 25, 2019 4:59:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/manager
+Dec 25, 2019 4:59:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 2,487 ms
+Dec 25, 2019 4:59:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/host-manager
+Dec 25, 2019 4:59:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 223 ms
+Dec 25, 2019 4:59:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/docs
+Dec 25, 2019 4:59:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 267 ms
+Dec 25, 2019 4:59:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/examples
+Dec 25, 2019 4:59:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 1,681 ms
+Dec 25, 2019 4:59:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/ROOT
+Dec 25, 2019 4:59:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 271 ms
+Dec 25, 2019 4:59:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 4:59:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 4:59:59 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5409 ms
+Dec 25, 2019 5:27:02 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.InternalAprInputBuffer.parseRequestLine(InternalAprInputBuffer.java:240)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1050)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketWithOptionsProcessor.run(AprEndpoint.java:2512)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 25, 2019 5:40:14 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.InternalAprInputBuffer.parseRequestLine(InternalAprInputBuffer.java:240)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1050)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketWithOptionsProcessor.run(AprEndpoint.java:2512)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 25, 2019 5:51:09 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context []
+Dec 25, 2019 5:51:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ROOT.war
+Dec 25, 2019 5:51:22 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 25, 2019 5:51:45 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ROOT.war has finished in 36,064 ms
+Dec 25, 2019 5:51:55 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 25, 2019 10:12:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 10:12:35 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 10:12:35 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 25, 2019 10:12:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 25, 2019 10:12:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak.
+Dec 25, 2019 10:12:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Tomcat JDBC Pool Cleaner[1443636319:1577253090825]] but has failed to stop it. This is very likely to create a memory leak.
+Dec 25, 2019 10:12:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak.
+Dec 25, 2019 10:12:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 10:12:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 10:12:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 10:12:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.184-linuxkit
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_221-b02
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Dec 25, 2019 10:18:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Dec 25, 2019 10:18:01 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Dec 25, 2019 10:18:01 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Dec 25, 2019 10:18:01 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Dec 25, 2019 10:18:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 10:18:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 10:18:02 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4312 ms
+Dec 25, 2019 10:18:02 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 25, 2019 10:18:02 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Dec 25, 2019 10:18:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/manager
+Dec 25, 2019 10:18:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 2,566 ms
+Dec 25, 2019 10:18:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/host-manager
+Dec 25, 2019 10:18:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 184 ms
+Dec 25, 2019 10:18:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/docs
+Dec 25, 2019 10:18:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 211 ms
+Dec 25, 2019 10:18:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/examples
+Dec 25, 2019 10:18:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 2,194 ms
+Dec 25, 2019 10:18:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/ROOT
+Dec 25, 2019 10:18:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 505 ms
+Dec 25, 2019 10:18:08 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 10:18:08 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 10:18:08 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6074 ms
+Dec 25, 2019 10:28:20 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context []
+Dec 25, 2019 10:28:21 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ROOT.war
+Dec 25, 2019 10:28:27 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 25, 2019 10:28:39 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ROOT.war has finished in 17,668 ms
+Dec 25, 2019 10:28:48 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 25, 2019 12:36:53 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context []
+Dec 25, 2019 12:36:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 25, 2019 12:36:57 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak.
+Dec 25, 2019 12:36:57 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Tomcat JDBC Pool Cleaner[1897328343:1577269712481]] but has failed to stop it. This is very likely to create a memory leak.
+Dec 25, 2019 12:36:57 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak.
+Dec 25, 2019 12:36:57 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ROOT.war
+Dec 25, 2019 12:36:58 PM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load ch.qos.logback.core.LifeCycleManager.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1840)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1798)
+	at ch.qos.logback.core.ContextBase.getLifeCycleManager(ContextBase.java:235)
+	at ch.qos.logback.core.ContextBase.reset(ContextBase.java:146)
+	at ch.qos.logback.classic.LoggerContext.reset(LoggerContext.java:220)
+	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.performXMLConfiguration(ReconfigureOnChangeTask.java:111)
+	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.run(ReconfigureOnChangeTask.java:65)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dec 25, 2019 12:36:58 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization started
+Dec 25, 2019 12:36:59 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'gameoflife-servlet': startup date [Wed Dec 25 12:36:59 UTC 2019]; root of context hierarchy
+Dec 25, 2019 12:36:59 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/gameoflife-servlet.xml]
+Dec 25, 2019 12:36:59 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Dec 25, 2019 12:36:59 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1454f0c6: defining beans [gameController,homePageController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,view-Resolver]; root of factory hierarchy
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@3ef8ca4]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@3ef8ca4]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@3ef8ca4]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@3ef8ca4]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@3ef8ca4]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@3ef8ca4]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@3ef8ca4]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@3ef8ca4]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@3ef8ca4]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Root mapping to handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@63fa6500]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@63fa6500]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@63fa6500]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home/] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@63fa6500]
+Dec 25, 2019 12:36:59 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization completed in 454 ms
+Dec 25, 2019 12:36:59 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ROOT.war has finished in 2,042 ms
+Dec 25, 2019 12:51:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 12:51:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 12:51:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 25, 2019 12:51:42 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'gameoflife-servlet': startup date [Wed Dec 25 12:36:59 UTC 2019]; root of context hierarchy
+Dec 25, 2019 12:51:42 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1454f0c6: defining beans [gameController,homePageController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,view-Resolver]; root of factory hierarchy
+Dec 25, 2019 12:51:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 12:51:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Dec 25, 2019 12:51:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Dec 25, 2019 12:51:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]

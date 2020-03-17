@@ -1,0 +1,4 @@
+Dec 27, 2019 7:56:35 AM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'gameoflife'
+Dec 27, 2019 7:56:36 AM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'gameoflife'

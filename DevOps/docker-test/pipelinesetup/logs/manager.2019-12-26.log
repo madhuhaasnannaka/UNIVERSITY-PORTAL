@@ -1,0 +1,46 @@
+Dec 26, 2019 7:55:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Dec 26, 2019 7:55:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+Dec 26, 2019 7:55:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dec 26, 2019 7:55:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dec 26, 2019 7:59:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Dec 26, 2019 7:59:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Dec 26, 2019 7:59:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Dec 26, 2019 7:59:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /usr/local/tomcat/webapps/ROOT.war.tmp
+Dec 26, 2019 9:40:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Dec 26, 2019 9:40:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /usr/local/tomcat/webapps/ROOT.war.tmp
+Dec 26, 2019 9:47:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Dec 26, 2019 9:47:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /usr/local/tomcat/webapps/ROOT.war.tmp
+Dec 26, 2019 9:57:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Dec 26, 2019 9:57:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /usr/local/tomcat/webapps/ROOT.war.tmp
+Dec 26, 2019 9:58:27 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dec 26, 2019 9:58:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dec 26, 2019 9:58:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/'
+Dec 26, 2019 9:58:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'refreshSessions' for web application '/'
+Dec 26, 2019 9:58:51 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/'
+Dec 26, 2019 9:59:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/'
+Dec 26, 2019 9:59:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/'
+Dec 26, 2019 9:59:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/'
+Dec 26, 2019 9:59:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/'

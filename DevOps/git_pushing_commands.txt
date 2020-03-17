@@ -1,0 +1,13 @@
+delete the folder before cloning again
+
+ 
+
+181  ls
+  182  cd Desktop
+  183  git clone https://github.com/LTTS-devops/devops-freshers
+  184  cd devops-freshers/
+  185  git add .
+  186  git commit -m "madhuhaas commit 14-11-19"
+  187  git push
+  188  git history
+  189  history

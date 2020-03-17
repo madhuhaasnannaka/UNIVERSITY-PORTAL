@@ -1,0 +1,46 @@
+node
+{
+   stage('SCM Checkout'){
+      git credentialsId: 'git', url: 'https://github.com/madhuhaasnannaka/gameoflife.git'
+   }
+   stage('Build'){
+      // Get maven home path
+      def mvnHome =  tool name: 'maven-3.6.2', type: 'maven'   
+      bat "${mvnHome}/bin/mvn clean compile install"
+   }
+   stage('Unit Test'){
+      // Get maven home path
+      def mvnHome =  tool name: 'maven-3.6.2', type: 'maven'   
+      bat "${mvnHome}/bin/mvn test"
+	  junit '**/target/surefire-reports/TEST-*.xml'
+		//archiveArtifacts 'target/'
+   }
+    
+    stage('SonarQube Analysis') {
+        def mvnHome =  tool name: 'maven-3.6.2', type: 'maven'
+         bat "${mvnHome}/bin/mvn sonar:sonar"
+        
+        stage('Package'){
+      // Get maven home path
+        //def mvnHome =  tool name: 'maven-3.6.2', type: 'maven'   
+            bat "${mvnHome}/bin/mvn package"
+   }
+    stage('Install'){
+      // Get maven home path
+      //def mvnHome =  tool name: 'maven-3.6.2', type: 'maven'   
+      bat "${mvnHome}/bin/mvn install"
+   }
+        stage('Push to nexus')
+        {
+		nexusPublisher nexusInstanceId: 'localnexus', nexusRepositoryId: 'local', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: 'C:/Program Files (x86)/Jenkins/workspace/madhuhaas_folder/ci-c-PIPELINE-gameoflife/gameoflife-web/target/gameoflife.war']], mavenCoordinate: [artifactId: 'gameoflife', groupId: 'com.gameoflife.devops', packaging: 'war', version: '1.0_${BUILD_NUMBER}']]]
+        }
+        stage('Deploy to tomact')
+		{
+		
+        bat 'curl -v -u madhu:admin -T "C:/Program Files (x86)/Jenkins/workspace/madhuhaas_folder/ci-c-PIPELINE-gameoflife/gameoflife-web/target/gameoflife.war" "http://localhost:8085/manager/text/deploy?path=&update=true"'
+
+       
+}
+}
+}
+

@@ -1,0 +1,28 @@
+Dec 26, 2019 7:52:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Dec 26, 2019 7:52:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Dec 26, 2019 7:52:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@d1e43ed')
+Dec 26, 2019 7:52:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@40b3f220')
+Dec 26, 2019 7:59:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'gameoflife'
+Dec 26, 2019 9:40:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'gameoflife'
+Dec 26, 2019 9:40:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'gameoflife'
+Dec 26, 2019 9:47:47 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'gameoflife'
+Dec 26, 2019 9:48:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: 1 Spring WebApplicationInitializers detected on classpath
+Dec 26, 2019 9:48:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Dec 26, 2019 9:48:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Dec 26, 2019 9:57:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Dec 26, 2019 9:57:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Dec 26, 2019 9:57:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'gameoflife'

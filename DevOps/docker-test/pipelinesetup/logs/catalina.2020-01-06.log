@@ -1,0 +1,72 @@
+Jan 06, 2020 5:24:56 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context []
+Jan 06, 2020 5:24:56 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jan 06, 2020 5:24:56 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak.
+Jan 06, 2020 5:24:56 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Tomcat JDBC Pool Cleaner[928971220:1577972523200]] but has failed to stop it. This is very likely to create a memory leak.
+Jan 06, 2020 5:24:56 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak.
+Jan 06, 2020 5:24:56 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ROOT.war
+Jan 06, 2020 5:24:56 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization started
+Jan 06, 2020 5:24:57 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'gameoflife-servlet': startup date [Mon Jan 06 05:24:57 UTC 2020]; root of context hierarchy
+Jan 06, 2020 5:24:57 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/gameoflife-servlet.xml]
+Jan 06, 2020 5:24:57 AM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Jan 06, 2020 5:24:57 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@41205c8b: defining beans [gameController,homePageController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,view-Resolver]; root of factory hierarchy
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@44e3fd7f]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@44e3fd7f]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@44e3fd7f]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@44e3fd7f]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@44e3fd7f]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@44e3fd7f]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@44e3fd7f]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@44e3fd7f]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@44e3fd7f]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Root mapping to handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@5417c02e]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@5417c02e]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@5417c02e]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home/] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@5417c02e]
+Jan 06, 2020 5:24:57 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization completed in 567 ms
+Jan 06, 2020 5:24:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ROOT.war has finished in 1,332 ms
+Jan 06, 2020 5:25:11 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load ch.qos.logback.core.LifeCycleManager.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1840)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1798)
+	at ch.qos.logback.core.ContextBase.getLifeCycleManager(ContextBase.java:235)
+	at ch.qos.logback.core.ContextBase.reset(ContextBase.java:146)
+	at ch.qos.logback.classic.LoggerContext.reset(LoggerContext.java:220)
+	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.performXMLConfiguration(ReconfigureOnChangeTask.java:111)
+	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.run(ReconfigureOnChangeTask.java:65)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+

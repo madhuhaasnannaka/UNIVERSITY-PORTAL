@@ -1,0 +1,142 @@
+1.)Checking the internet connectivity using shell scripting:
+
+#!/bin/bash
+ 
+HNAME=google.com
+count=2
+ 
+if [[ 'ping $count -c "$HNAME"' ]]
+then
+        echo " $HNAME is still up"
+else
+        echo " $HNAME is down/ can not be connected"
+fi
+[madhuhaasn@localhost keys]$ ./ping.sh
+ google.com is still up
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2.)#!/bin/bash
+ 
+fact()
+{
+        n=$1
+        result=1
+        while [ $n -ge 1 ];
+                do
+                        ((result= n * result))
+                        ((n= n-1))
+                done
+ 
+        echo  $result
+}
+ 
+fact 5
+[madhuhaasn@localhost keys]$ ./factorial.sh
+120
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3.)PASSWORD CHECK:
+
+#!/bin/bash
+ 
+echo "please enter the password"
+read password
+len="${#password}"
+ 
+if test $len -ge 8 ; then
+        echo "$password" | grep -q [0-9]
+        if test $? -eq 0 ; then
+                echo "$password" | grep -q [A-Z]
+                if test $? -eq 0 ; then
+                        echo "$password" | grep -q [a-z]
+                        if test $? -eq 0 ; then
+                                echo "password is strong"
+                        else
+                                echo "password requires small letters"
+                        fi
+ 
+               else
+                        echo "password must have capital letters"
+ 
+                fi
+ 
+        else
+                echo "password must have numbers"
+ 
+ 
+        fi
+else
+        echo "weak password should have atleast 8 charchters"
+ 
+fi
+[madhuhaasn@localhost keys]$ ./pwdcheck.sh
+please enter the password
+BETHESUN
+password must have numbers
+[madhuhaasn@localhost keys]$ BETHEsun
+/bin/sh: BETHEsun: not found
+[madhuhaasn@localhost keys]$ ./pwdcheck.sh
+please enter the password
+beTHEsun1234
+password is strong
+[madhuhaasn@localhost keys]$ ./pwdcheck.sh
+please enter the password
+BETHESUN1234
+password requires small letters
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4.)TO REVERSE A GIVEN NUMBER:
+
+#!/bin/bash
+ 
+ 
+ 
+if [ $# -eq 1 ]; then
+ 
+    if [ $1 -gt 0 ]; then
+ 
+        num=$1
+ 
+        revNum=0
+ 
+        while [ $num -ne 0 ]
+ 
+        do
+ 
+            testnum=$(( $num %  10 ))
+ 
+            revNum=$(( $revNum * 10 + $testnum ))
+ 
+            num=$(( $num / 10 ))
+ 
+        done
+
+        echo "Reverse Number:  $revNum of $1"
+ 
+    else
+ 
+        echo "Input is less than 0, retry with a different number."
+ 
+    fi
+ 
+else
+ 
+    echo "ERROR: Retry with one parameter."
+ 
+fi
+[madhuhaasn@localhost keys]$ ./revnum.sh  431
+Reverse Number:  134 of 431
+[madhuhaasn@localhost keys]$ ./revnum.sh  12
+Reverse Number:  21 of 12
+[madhuhaasn@localhost keys]$ ./revnum.sh  1
+Reverse Number:  1 of 1
+[madhuhaasn@localhost keys]$ ./revnum.sh  0
+Input is less than 0, retry with a different number.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+ 
+

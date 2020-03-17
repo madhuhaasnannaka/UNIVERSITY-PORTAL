@@ -1,0 +1,7 @@
+npm config set https-proxy http://10.9.53.7:8080
+npm install
+npm run build
+npm install sonarqube-scanner
+npm run sonar
+
+Docker container run --publish 8087:8087 nodejsapp

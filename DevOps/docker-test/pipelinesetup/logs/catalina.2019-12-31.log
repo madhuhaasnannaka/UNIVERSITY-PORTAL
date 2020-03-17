@@ -1,0 +1,12 @@
+Dec 31, 2019 4:32:40 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context []
+Dec 31, 2019 4:32:40 AM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'gameoflife-servlet': startup date [Thu Dec 26 09:57:10 UTC 2019]; root of context hierarchy
+Dec 31, 2019 4:32:40 AM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6a7ccab5: defining beans [gameController,homePageController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,view-Resolver]; root of factory hierarchy
+Dec 31, 2019 4:32:41 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ROOT.war
+Dec 31, 2019 4:32:46 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 31, 2019 4:32:55 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ROOT.war has finished in 13,360 ms

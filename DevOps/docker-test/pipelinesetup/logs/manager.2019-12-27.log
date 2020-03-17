@@ -1,0 +1,8 @@
+Dec 27, 2019 4:28:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dec 27, 2019 4:28:05 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/manager'
+Dec 27, 2019 4:28:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dec 27, 2019 4:28:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'

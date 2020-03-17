@@ -1,0 +1,6 @@
+Jan 06, 2020 5:24:56 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Jan 06, 2020 5:24:56 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jan 06, 2020 5:24:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'gameoflife'

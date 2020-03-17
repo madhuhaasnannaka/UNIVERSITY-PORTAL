@@ -1,0 +1,8 @@
+Dec 31, 2019 4:32:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'gameoflife'
+Dec 31, 2019 4:32:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: 1 Spring WebApplicationInitializers detected on classpath
+Dec 31, 2019 4:32:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Dec 31, 2019 4:32:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'

@@ -1,0 +1,120 @@
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.9.184-linuxkit
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_221-b02
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/tomcat
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/tomcat
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/tomcat
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/tomcat
+Feb 14, 2020 4:59:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Feb 14, 2020 4:59:06 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.21 using APR version 1.5.1.
+Feb 14, 2020 4:59:06 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Feb 14, 2020 4:59:06 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.1.0j  20 Nov 2018)
+Feb 14, 2020 4:59:08 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Feb 14, 2020 4:59:08 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Feb 14, 2020 4:59:08 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 7343 ms
+Feb 14, 2020 4:59:08 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 14, 2020 4:59:08 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Feb 14, 2020 4:59:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ROOT.war
+Feb 14, 2020 4:59:22 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Feb 14, 2020 4:59:23 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [391] milliseconds.
+Feb 14, 2020 4:59:24 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization started
+Feb 14, 2020 4:59:24 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'gameoflife-servlet': startup date [Fri Feb 14 04:59:24 UTC 2020]; root of context hierarchy
+Feb 14, 2020 4:59:24 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/gameoflife-servlet.xml]
+Feb 14, 2020 4:59:25 AM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Feb 14, 2020 4:59:26 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6a383173: defining beans [gameController,homePageController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,view-Resolver]; root of factory hierarchy
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@6fe9d6f6]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@6fe9d6f6]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@6fe9d6f6]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@6fe9d6f6]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@6fe9d6f6]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@6fe9d6f6]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@6fe9d6f6]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@6fe9d6f6]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@6fe9d6f6]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Root mapping to handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@611fe9e0]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@611fe9e0]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@611fe9e0]
+Feb 14, 2020 4:59:27 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home/] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@611fe9e0]
+Feb 14, 2020 4:59:28 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization completed in 4453 ms
+Feb 14, 2020 4:59:29 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ROOT.war has finished in 19,757 ms
+Feb 14, 2020 4:59:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/manager
+Feb 14, 2020 4:59:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 433 ms
+Feb 14, 2020 4:59:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/host-manager
+Feb 14, 2020 4:59:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 739 ms
+Feb 14, 2020 4:59:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/docs
+Feb 14, 2020 4:59:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 312 ms
+Feb 14, 2020 4:59:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/tomcat/webapps/examples
+Feb 14, 2020 4:59:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 2,268 ms
+Feb 14, 2020 4:59:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Feb 14, 2020 4:59:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Feb 14, 2020 4:59:32 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 24339 ms

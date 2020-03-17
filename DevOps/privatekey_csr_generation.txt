@@ -1,0 +1,37 @@
+		GENERATING PRIVATE KEY AND CSR USING OPENSSL IN LINUX/UNIX
+
+1.)GO TO THE FOLDER WHERE YOU WANT THE PRIVATE KEY AND CSR TO BE CREATED
+
+ls
+mkdir csr
+cd csr
+
+
+2.)TO GENERATE THE PRIVATE KEY:
+openssl genrsa -des3 -out privatekey.key 2048
+
+3.)IT ASKS PASS PHRASE FOR THE PRIVATEKEY:USE 4 OR 8 CHARACTERS
+
+4.)VERIFY YOUR PASS PHRASE BY RETYPING
+ 
+terminal returns to the command line 
+
+5.)CHECK FOR THE PRIVATEKEY.KEY FILE IN THE FOLDER
+
+ls
+cat privatekey.key(to see the privatekey)
+
+6.)NOW TO GENERATE CSR:
+openssl req -new -key privatekey.key -out request.csr
+
+7.)TYPE PASS PHRASE FOR THE PRIVATE KEY
+
+8.)THEN TYPE THE INFORMATION ACCORDINGLY
+
+9.)YOU CAN SEE THE CSR FILE IN THE FOLDER
+
+ls
+cat request.csr(to see the csr)
+
+~~~~~~~~~~~~~~~~~~~~~thank you~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

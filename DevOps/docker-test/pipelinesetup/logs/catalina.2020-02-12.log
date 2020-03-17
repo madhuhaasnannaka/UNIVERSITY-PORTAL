@@ -1,0 +1,48 @@
+Feb 12, 2020 10:30:48 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context []
+Feb 12, 2020 10:30:48 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/tomcat/webapps/ROOT.war
+Feb 12, 2020 10:30:51 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Feb 12, 2020 10:30:51 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization started
+Feb 12, 2020 10:30:51 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'gameoflife-servlet': startup date [Wed Feb 12 10:30:51 UTC 2020]; root of context hierarchy
+Feb 12, 2020 10:30:51 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/gameoflife-servlet.xml]
+Feb 12, 2020 10:30:52 AM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Feb 12, 2020 10:30:52 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29993773: defining beans [gameController,homePageController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,view-Resolver]; root of factory hierarchy
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@2f07e79b]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@2f07e79b]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/next/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@2f07e79b]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@2f07e79b]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@2f07e79b]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/start/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@2f07e79b]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@2f07e79b]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@2f07e79b]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/game/new/] onto handler [com.wakaleo.gameoflife.webtests.controllers.GameController@2f07e79b]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Root mapping to handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@2ff6893c]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@2ff6893c]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home.*] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@2ff6893c]
+Feb 12, 2020 10:30:52 AM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/home/] onto handler [com.wakaleo.gameoflife.webtests.controllers.HomePageController@2ff6893c]
+Feb 12, 2020 10:30:53 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'gameoflife': initialization completed in 2162 ms
+Feb 12, 2020 10:30:53 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/tomcat/webapps/ROOT.war has finished in 4,599 ms
+Feb 12, 2020 10:31:45 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.

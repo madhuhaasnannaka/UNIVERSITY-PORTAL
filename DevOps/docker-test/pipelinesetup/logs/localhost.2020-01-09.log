@@ -1,0 +1,8 @@
+Jan 09, 2020 11:22:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'gameoflife'
+Jan 09, 2020 11:22:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'gameoflife'
+Jan 09, 2020 11:38:34 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'gameoflife'
+Jan 09, 2020 11:38:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'gameoflife'

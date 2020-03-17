@@ -1,0 +1,18 @@
+Dec 31, 2019 4:27:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dec 31, 2019 4:27:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Dec 31, 2019 4:27:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/manager'
+Dec 31, 2019 4:27:47 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/manager'
+Dec 31, 2019 4:27:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/manager'
+Dec 31, 2019 4:28:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'sessionDetail' for web application '/manager'
+Dec 31, 2019 4:28:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: sessions: Session action 'null' for web application '/manager'
+Dec 31, 2019 4:32:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Dec 31, 2019 4:32:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /usr/local/tomcat/webapps/ROOT.war.tmp

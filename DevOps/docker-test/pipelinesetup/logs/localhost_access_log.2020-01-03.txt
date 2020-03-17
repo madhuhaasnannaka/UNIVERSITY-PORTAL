@@ -1,0 +1,15 @@
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET / HTTP/1.1" 200 3848
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /vendors/jquery-ui/themes/base/minified/jquery.ui.datepicker.min.css HTTP/1.1" 200 3094
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /vendors/jquery-ui/themes/base/minified/jquery.ui.theme.min.css HTTP/1.1" 200 11781
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /resources/images/spring-pivotal-logo.png HTTP/1.1" 200 2818
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /resources/images/pets.png HTTP/1.1" 200 67721
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /vendors/jquery-ui/themes/base/minified/jquery-ui.min.css HTTP/1.1" 200 25769
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /vendors/jquery/jquery.min.js HTTP/1.1" 200 83612
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /vendors/jquery-ui/ui/jquery.ui.core.js HTTP/1.1" 200 8518
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /vendors/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 36874
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /vendors/jquery-ui/ui/jquery.ui.datepicker.js HTTP/1.1" 200 78362
+172.18.0.1 - - [03/Jan/2020:06:05:55 +0000] "GET /resources/css/petclinic.css HTTP/1.1" 200 127378
+172.18.0.1 - - [03/Jan/2020:06:05:56 +0000] "GET /resources/fonts/varela_round-webfont.woff HTTP/1.1" 200 32712
+172.18.0.1 - - [03/Jan/2020:06:05:56 +0000] "GET /resources/fonts/montserrat-webfont.woff HTTP/1.1" 200 24240
+172.18.0.1 - - [03/Jan/2020:06:05:56 +0000] "GET /vendors/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+172.18.0.1 - - [03/Jan/2020:06:05:56 +0000] "GET /resources/images/spring-logo-dataflow.png HTTP/1.1" 200 6888

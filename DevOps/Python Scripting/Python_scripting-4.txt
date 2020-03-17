@@ -1,0 +1,237 @@
+1.)pass statement:
+
+#!/usr/bin/env python
+ 
+for letter in 'python':
+ 
+        if letter == 'h':
+                pass
+                print 'this is pass block'
+ 
+        print 'present letter:',letter
+[root@localhost ~]# ./pass.py
+present letter: p
+present letter: y
+present letter: t
+this is pass block
+present letter: h
+present letter: o
+present letter: n
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2.)continue statement:
+
+[root@localhost ~]# cat continue.py
+#!/usr/bin/env python
+ 
+for letter in 'python':
+        if letter =='h':
+                continue
+                print 'this is continue block'
+        print 'present letter:',letter
+[root@localhost ~]# chmod +x continue.py
+[root@localhost ~]# ./continue.py
+present letter: p
+present letter: y
+present letter: t
+present letter: o
+present letter: n
+[root@localhost ~]#  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3.)break statement:
+
+#!/usr/bin/env python
+ 
+for letter in 'madhuhaas':
+        if letter == 'u':
+                break
+                print 'this is break block'
+        print 'letter:',letter
+[root@localhost ~]# ./break.py
+letter: m
+letter: a
+letter: d
+letter: h
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4.)fibanoci series:
+
+#!/usr/bin/env python
+ 
+def Fibonacci(n):
+ 
+    if n<0:
+ 
+        print("Incorrect input")
+ 
+    # First Fibonacci number is 0
+ 
+    elif n==1:
+ 
+        return 0
+ 
+    # Second Fibonacci number is 1
+ 
+    elif n==2:
+ 
+        return 1
+ 
+    else:
+ 
+        return Fibonacci(n-1)+Fibonacci(n-2)
+ 
+print(Fibonacci(9))
+[root@localhost ~]# ./fibonacci.py
+21
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5.)tuples:
+
+#!/usr/bin/env python
+ 
+tuple1=('madhuhaas','rowdyfelw')
+tuple2=(123,456)
+print(cmp(tuple1,tuple2))
+tuple3=tuple1+tuple2
+print(tuple3)
+print(len(tuple3))
+print(max(tuple2))
+print(min(tuple2))
+list=[1,2,3,4]
+tuple4=tuple(list)
+print(tuple4)
+[root@localhost ~]# ./tuples.py
+1
+('madhuhaas', 'rowdyfelw', 123, 456)
+4
+456
+123
+(1, 2, 3, 4)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+6.)functions in function:
+
+
+#!/usr/bin/env python
+ 
+def check(num):
+        if num%2 == 0:
+                print 'number is even'
+                even(num)
+ 
+ def even(num1):
+        if num1>9:
+                print 'the number is two digit even number'
+        else:
+                print 'single digit even number'
+        table(num1)
+ 
+def table(num2):
+        print 'printing table.........'
+        for i in range(10):
+                print i*num2
+ 
+check(8)
+check(5)
+[root@localhost ~]# ./function.py
+number is even
+single digit even number
+printing table.........
+0
+8
+16
+24
+32
+40
+48
+56
+64
+72
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+7.)file operations:
+
+#!/usr/bin/env python
+ 
+fo=open("textfile","wb")
+ 
+fo.write("hi this is new file created and printing... \n this is madhuhaas from
+ltts please check the code for file operations in Python \n")
+ 
+fo.close()
+[root@localhost ~]# ./files.py
+[root@localhost ~]# ls
+break.py     fibonacci.py  function.py  pass.py   tuples.py
+continue.py  files.py      hello.c      textfile
+[root@localhost ~]# cat textfile
+hi this is new file created and printing...
+ this is madhuhaas from ltts please check the code for file operations in Python
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+8.)math in python(trignometry)
+
+#!/usr/bin/env python
+ 
+import math
+ 
+ 
+print(math.radians(math.pi))
+print(math.radians(math.pi/2))
+print(math.radians(2*(math.pi)))
+[root@localhost ~]# ./trig.py
+0.0548311355616
+0.0274155677808
+0.109662271123
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+9.)shuffling list:
+
+[root@localhost ~]# cat shuffle.py
+#!/usr/bin/env python
+ 
+import random
+ 
+list=['madhuhaas','ltts','mysore','karnataka']
+ 
+random.shuffle(list)
+ 
+print list
+[root@localhost ~]# ./shuffle.py
+['mysore', 'ltts', 'madhuhaas', 'karnataka']
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+10.)dictonary in python:
+
+#!/usr/bin/env python
+ 
+dict={'name':'madhuhaas','company':'ltts','city':'mysore','state':'karnataka'}
+ 
+print(len(dict))
+ 
+print(str(dict))
+print(type(dict))
+print(dict.items())
+print(dict.keys())
+print(dict.values())
+[root@localhost ~]# ./dict.py
+4
+{'city': 'mysore', 'company': 'ltts', 'name': 'madhuhaas', 'state': 'karnataka'}
+<type 'dict'>
+[('city', 'mysore'), ('company', 'ltts'), ('name', 'madhuhaas'), ('state', 'karn
+ataka')]
+['city', 'company', 'name', 'state']
+['mysore', 'ltts', 'madhuhaas', 'karnataka']
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
